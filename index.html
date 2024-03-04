@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Barber Talk </title>
+    <!-- Aqui van las reglas de estilos y otras cosas -->
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+     <link rel="icon" href="img/logo2.ico"> <!-- Para el icono de la pagina -->
+<style>
+    body{
+       /* background-color: rgb(124, 109, 94); */
+       background-image: url(img/lineas2.jpg);
+    }
+
+
+.container {
+    display: flex;
+    width: 800px; /* Espacio entre el borde de la pagina para el contenedor de las imagenes */
+    gap: 10px;   /* Espacio entre cada cuadro de la imagen*/
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.container > div {
+    /* background-color: black; */
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.Corte{
+    flex: 1;
+}
+
+.Limpieza{
+    flex: 1;
+}
+
+.Diseño{
+    flex: 1;
+}
+
+</style>
+
+
 </head>
 <body>
-    <h1>Hola</h1>
+    
+
+    <h1>Barber Talk</h1>
+    <nav>
+        <ul>
+            <li><a href="Registro.html">Registrate</a></li>
+            <li><a href="Inicio2.html">Iniciar sesion</a></li>
+            <li><a href="Calendario/Citas.html">Citas</a></li>
+            <li><a href="Informacion/Informacion.html">Informacion</a></li>
+            <li><a href="">Preguntas frecuentes</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenido">
+        <div class="articulos">
+            <div class="secciones">
+                <div>
+                    <h2>Barber Talk</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                       Illo culpa assumenda iure tempore consectetur, quod quisquam 
+                       quam maxime nesciunt fugiat ex in dolor sint cupiditate atque 
+                       sequi minus, rerum officia.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                       Illo culpa assumenda iure tempore consectetur, quod quisquam 
+                       quam maxime nesciunt fugiat ex in dolor sint cupiditate atque 
+                       sequi minus, rerum officia.
+                    </p>
+                </div>
+                <div><img src="img/A2.png" alt="No se encontro"></div>
+            </div>
+
+        </div>
+        <div class="menu-secundario">
+            <a href=""> </a>
+        </div>
+    
+
+    <!-- Cuadros con imagenes y texto -->
+
+    <div class="container">
+        <div class="Corte">
+            <img src="img/corte.jpg" alt="No se encontro">
+            <br>
+            Corte
+        </div>
+   
+
+
+        <div class="Limpieza">
+            <img src="img/limpieza.jpg" alt="No se encontro">
+            <br>
+            Limpieza
+        </div>
+    
+
+   
+        <div class="Diseño">
+            <img src="img/diseño.jpg" alt="No se encontro">
+            <br>
+            Diseño
+        </div>
+    
+    </div>
+
+
+
+    <!-- <div class="menu-tercero">
+        <a href="">AxolBit info </a>
+        <a href="">Contactanos  </a>
+        <a href="">Servicios    </a>
+        <a href="">Crear cita   </a>
+        <a href="">Mas articulos</a>
+    </div> -->
+
+</div>
+
+
+
+    <!-- Final de la pagina -->
+    <footer>
+        <p> AxolBit es una empresa Mexicana que se dedica a la creacion de sitios Web, creada por estudiantes <br>
+            <small>&copy; AxolBit Derechos Reservados 2024</small>
+        </p>
+        
+    </footer>
+
+
 </body>
 </html>
